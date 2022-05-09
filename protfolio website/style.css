@@ -1,0 +1,249 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.sidebar {
+  background-color: rgb(236, 214, 214);
+  font-family: "Gill Sans";
+  transition: transform 0.3s ease-in;
+  height: 100vh;
+  font-weight: 700;
+  position: absolute;
+}
+.sidebar nav {
+  padding: 20px;
+}
+
+.sidebar nav li {
+  list-style: none;
+  font-size: 20px;
+  padding: 40px 0;
+}
+.sidebar nav li a {
+  text-decoration: none;
+  color: black;
+}
+
+.main {
+  width: 90vw;
+}
+.container {
+  display: flex;
+}
+
+.infoContainer {
+  height: 40vh;
+  width: 90vw;
+  margin: 130px auto;
+  display: flex;
+  justify-content: space-around;
+  margin-left: 60px;
+}
+
+.devInfo {
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.hello {
+  font-size: 3em;
+}
+.name {
+  font-size: 3em;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+.about {
+  font-size: 2.2em;
+}
+
+.aboutmore {
+  font-size: 2em;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  font-family: sans-serif;
+}
+.buttons {
+  margin-top: 2.2em;
+  font-size: 5px;
+}
+
+.btn {
+  padding: 9px 12px;
+  border-radius: 20px;
+  color: white;
+  background-color: rgb(65, 65, 243);
+  font-weight: bold;
+  font-size: 2em;
+  margin: 3px 3px;
+  cursor: pointer;
+}
+
+.btn-sm {
+  font-size: 10px;
+}
+.btn:hover {
+  color: white;
+  background-color: rgb(163, 238, 238);
+}
+.devPic img {
+  height: 40vh;
+}
+
+.contactform {
+  padding: 0 34px;
+  font-family: sans-serif;
+  margin: 100px;
+}
+
+.contactform h1 {
+  font-family: sans-serif;
+}
+
+.contactform form div {
+  padding: 10px 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.contactform form div input {
+  border-radius: 5px;
+  margin: 6px 0;
+  padding: 3px;
+}
+.contactform {
+  margin: 0 40px;
+}
+
+#emailHelp {
+  font-size: 10px;
+  color: blueviolet;
+  margin: 0 3px;
+  padding: 2px 0 0 0;
+}
+
+#form-check {
+  flex-direction: row;
+}
+
+#form-check input {
+  width: 15px;
+  margin: 2px 0;
+}
+
+.blogItem {
+  margin: 15px;
+  font-family: sans-serif;
+}
+.blogContainer {
+  margin: 10px 100px;
+  margin-left: 50px;
+}
+
+h1 {
+  font-family: sans-serif;
+  margin: 20px;
+}
+
+p {
+  font-family: monospace;
+}
+.intro {
+  margin: 10px 100px;
+}
+
+.intro h2 {
+  font-family: sans-serif;
+  margin: 12px;
+}
+
+.intro p {
+  font-family: monospace;
+  margin: 12px;
+}
+
+.skillcontainer {
+  padding: 12px;
+}
+
+.skillItem {
+  display: flex;
+  align-items: center;
+  font-family: sans-serif;
+  font-weight: 600;
+}
+
+.skill {
+  width: 20px;
+  height: 6px;
+  background-color: red;
+  border: 2px solid black;
+}
+.hundred {
+  width: 250px;
+  background-color: blueviolet;
+}
+.fifty {
+  width: 135px;
+  background-color: yellowgreen;
+}
+
+.t5 {
+  width: 75px;
+  background-color: brown;
+}
+
+.projectcontainer {
+  padding: 12px;
+}
+
+.projectItem {
+  display: flex;
+  align-items: center;
+  font-family: sans-serif;
+  font-weight: 600;
+}
+
+.project {
+  width: 20px;
+  height: 6px;
+  margin: 5px;
+}
+.sidebarGo {
+  transform: translate(-443px, 0px);
+  position: absolute;
+}
+.hamburger {
+  position: absolute;
+  cursor: pointer;
+  top: 10px;
+  left: 10px;
+}
+
+.ham {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.cross {
+  margin-top: 10px;
+  margin-left: 100px;
+}
+
+@media (max-width: 1400px) {
+}
+
+.devInfo {
+  font-size: 10px;
+}
+/*.devPic {
+  display: none;
+}
+*/
+.intro,
+.blogContainer,
+.contactform {
+  margin: 80px;
+}
